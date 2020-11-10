@@ -290,17 +290,11 @@ img {
   }
   
   .section-top__info {
-    font-size: 24px;
-    font-weight: 900;
-    color: #fcff00;
-    margin: 0;
-  }
-  
-  .section-top__title {
     font-size: 55px;
     font-weight: 900;
     margin: 0 0 35px;
   }
+  
   .pizza-btn {
     position: fixed;
     bottom: 20px;
