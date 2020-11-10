@@ -1,6 +1,4 @@
 /*
-font-family: 'Roboto', sans-serif;
-font-family: 'Montserrat', sans-serif;
 lg: 1200px
 md: 992px
 sm: 767px
@@ -9,10 +7,10 @@ xs: 576px
 
 *{
   box-sizing: border-box; /*говорит браузеру учитывать любые границы и внутренние отступы в значениях, которые я указываю в ширине и высоте элемента.*/
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 /*базовые стили для проекта*/
 body{
-  font-family: 'Roboto', sans-serif;
   font-weight: 300; /*вес шрифта(светлый)*/
   font-size: 16px; /*размер шрифта*/
   line-height: 1.375; /*междустрочный интервал*/
@@ -79,7 +77,6 @@ img {
   text-decoration: none;
   display: block;
   padding: 15px 35px;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 18px;
   position: relative;
@@ -155,7 +152,6 @@ img {
     width: 240px;
     max-width: 100%;
     border-radius: 28px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 18px;
     border: 0;
@@ -196,7 +192,6 @@ img {
   
   /* phone start */
   .phone__item {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #fff;
     text-decoration: none;
@@ -296,14 +291,12 @@ img {
   
   .section-top__info {
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #fcff00;
     margin: 0;
   }
   
   .section-top__title {
-    font-family: 'Montserrat', sans-serif;
     font-size: 55px;
     font-weight: 900;
     margin: 0 0 35px;
@@ -359,7 +352,6 @@ img {
     font-size: 48px;
     text-align: center;
     margin: 0 auto 40px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
   }
   
@@ -405,7 +397,6 @@ img {
     padding: 14px;
     min-width: 150px;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #e6e6e6;
     border-right: 1px solid #e5e5e5;
@@ -563,7 +554,6 @@ img {
     display: grid;
     justify-content: center;
     margin: 0 0 10px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 22px;
   }
@@ -596,7 +586,6 @@ img {
     display: inline-block;
     text-align: center;
     color: #e6e6e6;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     padding: 13px 33px;
     border-radius: 21px;
@@ -608,7 +597,6 @@ img {
   }
   
   .product__price {
-    font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: 900;
   }
@@ -639,7 +627,6 @@ img {
 
 
 .footer-text {
-    font-family: 'Montserrat', sans-serif;
     flex-basis: 200px;
     padding: 10px 50px 50px 50px;
 }
