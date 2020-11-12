@@ -305,7 +305,6 @@ img {
     background-color: orange;
     background-size: 200% 200%;
     padding: 15px;
-    animation: play-button-color-change 1s infinite alternate;
     z-index: 1;
 } 
 
@@ -620,10 +619,10 @@ img {
   }
 
 
-.footer-text {
+  .footer-text {
     flex-basis: 200px;
     padding: 10px 50px 50px 50px;
-}
+  }
 
   
   @media (min-width: 993px) and (max-width: 1200px) {
